@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	<meta name="viewport" content="initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+<title> Decodificador </title>
+</head>
+<body>
+	<h1 class="titulo"> decifra-me</h1>
+<main class="main">
+	<div class="form">
+		<form>
+			<label for="input-text"> Apenas letras minúsculas, sem acentos e caracteres especiais</label>
+			<textarea id="input-text" placeholder="insira o texto aqui..."></textarea>
+			<button onclick="validarCripto()"class="btn" type="button" id="btn-cripto">codificar</button>
+			<button onclick="validarDescripto()" class="btn" type="button" id="btn-descripto">decodificar</button>
+		</form>
+	</div>
+	
+	<div class="msg">
+		<label for="msg-text"> Mensagem </label>
+		<textarea id="msg-text"></textarea>
+		<button onclick="copiar()" class="btn" type="button" id="btn-copy">copiar</button>
+		<p id="copiado"></p>
+	</div>
+</main>
+<script src ="script.js"></script>
+		</body>
+		<footer><ul>
+			<li>julia lacerda 2022</li>
+  <li>julialacerda@protonmail.com</li>
+</ul>
+</footer>
+		</html>
